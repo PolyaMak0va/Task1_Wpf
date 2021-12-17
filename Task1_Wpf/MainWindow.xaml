@@ -5,8 +5,188 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task1_Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="450" Width="350">
+    <Grid Background="#FF831871">
+        <Rectangle Stroke="Black" Margin="10,46,11,10">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="2,0" StartPoint="0.5,-1" Opacity="0.8">
+                    <GradientStop Color="#FF141A14" Offset="0.01"/>
+                    <GradientStop Color="#FF191A19" Offset="1"/>
+                    <GradientStop Color="#FF1B1B1C" Offset="1"/>
+                    <GradientStop Color="#FF18BC18" Offset="0.208"/>
+                    <GradientStop Color="#FF188118" Offset="0.615"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="285" Margin="31,60,0,0" FontSize="20" FontWeight="Bold" FontFamily="Nirmala UI">
+            <TextBlock.Background>
+                <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="-17" RadiusY="-2">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </TextBlock.Background>
+        </TextBlock>
+        <Button Content="1" HorizontalAlignment="Left" Margin="31,179,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="2" HorizontalAlignment="Left" Margin="106,179,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="3" HorizontalAlignment="Left" Margin="181,179,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="4" HorizontalAlignment="Left" Margin="31,239,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="5" HorizontalAlignment="Left" Margin="106,239,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="6" HorizontalAlignment="Left" Margin="181,239,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="7" HorizontalAlignment="Left" Margin="31,299,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="8" HorizontalAlignment="Left" Margin="106,299,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="9" HorizontalAlignment="Left" Margin="181,299,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="0" HorizontalAlignment="Left" Margin="31,359,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="," HorizontalAlignment="Left" Margin="106,359,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="=" HorizontalAlignment="Left" Margin="181,359,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569" Click="Button_Click">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="+" HorizontalAlignment="Left" Margin="256,179,0,201" FontSize="20" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="-" HorizontalAlignment="Left" Margin="256,239,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="*" HorizontalAlignment="Left" Margin="256,299,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="/" HorizontalAlignment="Left" Margin="256,359,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="C" HorizontalAlignment="Left" Margin="31,119,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569" Click="Button_Click">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="M" HorizontalAlignment="Left" Margin="106,119,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="M+" HorizontalAlignment="Left" Margin="181,119,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="M-" HorizontalAlignment="Left" Margin="256,119,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="60" FontFamily="Nirmala UI" FontWeight="Bold" BorderBrush="Black" OpacityMask="Black" Foreground="#FF303569">
+            <Button.Background>
+                <RadialGradientBrush RadiusX="7" RadiusY="1">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFE2A4A4"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="10,10,0,0" Text="Калькулятор" VerticalAlignment="Top" Width="323" TextChanged="TextBox_TextChanged" FontFamily="Lucida Fax" FontWeight="Bold" TextWrapping="Wrap" BorderThickness="1,9,1,1"/>
     </Grid>
 </Window>
