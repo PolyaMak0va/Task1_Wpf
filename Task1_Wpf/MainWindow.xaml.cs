@@ -24,5 +24,6 @@ namespace Task1_Wpf
         {
             InitializeComponent();
         }
+
     }
 }
